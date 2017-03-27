@@ -11,6 +11,27 @@ body {
   background-color: transparent;
 }
 
+h1, p {
+color:#fff;
+}
+
+h1{
+font-size:4em;
+margin:20px 0 40px 0;
+}
+h2{
+color:#ccc;
+margin:40px 0;
+}
+
+@media (min-width: 481px) {
+
+h1{
+font-size:6em;
+margin-top:80px;
+}
+
+}
 
 .cases {
    background: url(cases2.jpg) no-repeat center center fixed;
@@ -19,3 +40,5 @@ body {
    -o-background-size: cover;
    background-size: cover;
 }
+
+

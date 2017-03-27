@@ -15,25 +15,74 @@ h1, p {
 color:#fff;
 }
 
-h1{
-font-size:4em;
-margin:20px 0 40px 0;
+
+div.srd-landing-splash{
+    margin:20px 0 300px 0;
 }
+
+h1{
+  font-size:4em;
+  margin-bottom:40px;
+}
+
 h2{
-color:#ccc;
-margin:40px 0;
+  color:#ccc;
+  margin:40px 0;
 }
 
 @media (min-width: 481px) {
-
-h1{
-font-size:6em;
-margin-top:80px;
+  h1{
+    font-size:5em;
+  }
+  /*div.srd-landing-splash{
+    margin-bottom: 300px;
+  }*/
 }
 
+/*@media (min-width: 768px) {
+  h1{
+    font-size:5em;
+  }
+  div.srd-landing-splash{
+    margin-bottom: 300px;
+  }
+}*/
+
+@media (min-width: 995px) {
+  h1{
+    font-size:6em;
+  }
+  div.srd-landing-splash{
+      margin:80px 0 250px 0;
+  }
 }
 
-.cases {
+@media (min-width: 1150px) {
+
+  h1{
+    font-size:7em;
+  }
+  div.srd-landing-splash{
+      margin:80px 0 300px 0;
+  }
+}
+
+
+
+
+div.srd-banner{
+    background-color: #000;
+    padding: 40px;
+}
+
+@media (min-width: 1150px) {
+
+  img.cases{
+    margin:0 auto;
+  }
+}
+
+/*div.cases {
    background: url(cases2.jpg) no-repeat center center fixed;
    -webkit-background-size: cover;
    -moz-background-size: cover;
@@ -41,4 +90,6 @@ margin-top:80px;
    background-size: cover;
 }
 
-
+div.cases{
+  padding:100px 0;
+}*/

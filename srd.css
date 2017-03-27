@@ -1,5 +1,5 @@
 html {
-   background: url(instruments2.jpg) no-repeat center center fixed;
+   background: url(images/instruments2.jpg) no-repeat center center fixed;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -83,7 +83,7 @@ div.srd-banner{
 }
 
 /*div.cases {
-   background: url(cases2.jpg) no-repeat center center fixed;
+   background: url(images/cases2.jpg) no-repeat center center fixed;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
